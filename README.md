@@ -1,2 +1,2 @@
 # career-site-live
-A website to apply for job
+A website to show job openings and accept applications 
