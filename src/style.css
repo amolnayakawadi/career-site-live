@@ -1,0 +1,140 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+   
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Inter',sans-serif;
+}
+
+h2 {
+    text-align:center;
+    color: darkblue;
+}
+
+#banner {
+    width: 100%;
+}
+
+
+#banner {
+    object-fit: cover;
+}
+
+#description{
+    width: 50%;
+    padding: 0 8px 0 8px;
+    
+}
+
+#team{
+    width: 50%;
+}
+#about{
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.location {
+    color: gray;
+    margin-bottom: 16px;
+}
+
+#navbar {
+    padding: 0;
+}
+
+.logo {
+    height: 40px;
+}
+
+#team-image {
+    border-radius: 10px;
+    width: 100%;
+}
+
+
+#job{
+    max-width: 800px;
+    padding: 0 8px;
+    margin: 0 auto;
+}
+
+#jobs-table{
+    width: 100%;
+    border: 1px solid gray;
+    border-collapse: collapse;
+}
+
+.job-header-row th{
+    border: 1px solid gray;
+    padding: 8px;
+    background-color: ghostwhite;
+}
+
+.job-data-row td{ 
+    border-right: 1px solid gray;
+    padding: 8px;
+}
+
+#jobs-table tr:nth-child(odd){
+    background-color: ghostwhite;
+}
+
+h3{
+    margin-bottom: -2px;
+    margin-top: 0;
+}
+
+.apply{
+    float: right;
+}
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(64, 78, 156);
+}
+
+#footer{
+    background-color: ghostwhite;
+    margin-top: 32px;
+    text-align: center;
+}
+
+#footer-links{
+    list-style: none;
+    padding: 10px 0;
+}
+
+#footer-links li{
+    display: inline;
+    margin: 0 16px;
+}
+
+#copy{
+    color: gray;
+}
+
+.form-group{
+    padding: 8px;
+}
+
+.form-group input[type = 'textarea']{
+    width: 80%;
+   height: 80px;
+}
+
+
+#application-form input,select,textarea{
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}

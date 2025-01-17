@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My first webpage</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=League+Spartan:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <div id="navbar">
+        <img class="logo" src="w3school.png" alt="website logo">
+    </div>
+    <img id="banner" src="banner.jpg" alt="Banner image" height="240">
+    <h2>About W3Schools</h2>
+
+    <div id="about">
+        <div id="description">
+            <p style="margin-top: 0;">At W3Schools, we're on a mission to build the world's most hightly reputed<br>
+                technical university, and we're building it completely online. We offer<br>
+                several beginner friendly courses that are taken by 300,000 registered users.
+            </p>
+            <p>
+                We also offer 2 industry-focused courses:
+            <ol>
+                <li>
+                    <a href="https://www.w3schools.com/js/default.asp" target="_blank">
+                        W3Schools Javascrip full course
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.w3schools.com/php/default.asp">
+                        W3Schools PHP full course
+                    </a>
+                </li>
+            </ol>
+            </p>
+        </div>
+        <div id="team">
+            <img id="team-image" src="team.jpg" alt="team image">
+        </div>
+
+    </div>
+
+
+    <h2>Job Opportunities</h2>
+    <div id="job">
+        <table id="jobs-table">
+            <tr class="job-header-row">
+                <th rowspan="2">Job Title</th>
+                <th colspan="2">Location</th>
+                <th rowspan="2">Salary</th>
+                <th rowspan="2">Posted On</th>
+            </tr>
+            <tr class="job-header-row">
+                <th>City</th>
+                <th>Country</th>
+            </tr>
+            <tr class="job-data-row">
+                <td>Frontend Developer</td>
+                <td>Pune</td>
+                <td>India</td>
+                <td>12,00,000</td>
+                <td>Mar 3, 2025</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>Full Stack Developer</td>
+                <td>Mumbai</td>
+                <td>India</td>
+                <td>15,00,000</td>
+                <td>Feb 1, 2025</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>Data Scientist</td>
+                <td>San Francisco</td>
+                <td>USA</td>
+                <td>$175,000</td>
+                <td>Dec 22, 2025</td>
+            </tr>
+            <tr class="job-data-row">
+                <td>ML Engineer</td>
+                <td style="text-align: center;" colspan="2">Remote</td>
+                <td>80,000</td>
+                <td>Sep 19, 2025</td>
+            </tr>
+        </table>
+
+        <div id="application">
+            <h2>Submit the Application</h2>
+            <form id="application-form">
+                <div class="form-group">
+                    <label for="name">Full Name</label><br>
+                    <input type="text" id="name" name="full name" required>
+                </div>
+                <div class="form-group">
+                    <label for="Email">Email ID</label><br>
+                    <input type="text" id="Email" name="Email Address" required>
+                </div>
+                <div class="form-group">
+                    <label for="Phone">Phone</label><br>
+                    <input type="number" id="Phone" name="Phone number" required placeholder="+917820960012">
+                </div>
+                <div class="form-group">
+                    <label for="date">Date of Birth</label><br>
+                    <input type="date" id="date" name="date" required>
+                </div>
+                <div class="form-group">
+                    <label for="position">Position Applied</label><br>
+                    <select id="position" name="Position Applied" required>
+                        <option value="">Select Position</option>
+                        <option value="frontend Developer">Frontend developer</option>
+                        <option value="full stack developer">Full Stack Developer</option>
+                        <option value="Data Scientist">Data Scientist</option>
+                        <option value="ML engineer">ML Engineer</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="resume">Upload resume</label>
+                    <input type="file" id="resume" name="resume" required accept=".pdf,.doc,.docx">
+                </div>
+                <div class="form-group">
+                    <label for="cover">Cover Letter</label><br>
+                    <input type="textarea" id="cover" name="cover letter" placeholder="send your message">
+                </div>
+                <div class="form-group">
+                    <label for="terms">
+                        <input type="checkbox" id="terms" name="terms" required>
+                        I agree to the terms and conditions
+                        
+                    </label>
+                </div>
+                <div class="form-group">
+                    <input type="submit" value="Submit Application">
+                </div>
+            </form>
+
+        </div>
+
+
+
+
+
+        <div id="footer">
+            <ul id="footer-links">
+                <li>
+                    <a href="https://www.w3schools.com/html/" target="_blank">Courses
+                    </a>
+                </li>
+                <li>Programs</li>
+                <li>Youtube</li>
+            </ul>
+            <span id="copy">© W3school, 2024</span>
+        </div>
+</body>
+
+</html>
